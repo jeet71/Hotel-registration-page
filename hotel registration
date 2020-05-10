@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+body{
+background-color:#FFEBCD
+}
+.autostyle2{
+color:red;
+font-size:20px;
+text-align:center;
+}
+</style>
+</head>
+<body bgcolor="blue">
+<form action = "registration.html">
+<table>
+<tr class="autostyle2">
+<td colspan="4">Order food online</td></tr>
+<tr>
+<td width="100%" colspan="4">
+</td>
+</tr>
+<tr>
+<td>name:</td>
+<td><input type="text" name="username"  placeholder="enter your name" required></td>
+</tr>
+<tr>
+<td>date:</td>
+<td><input type="date" name="date" required></td>
+</tr>
+<tr>
+<td>email:</td>
+<td><input type="email" name="usermail"  placeholder="enter your email ID" required></td>
+</tr>
+<tr>
+<td>contact number:</td>
+<td><input type="tel" name="usrtel"  placeholder="enter your number" required></td>
+</tr>
+<tr>
+<td>select food:</td>
+<td>Non vegeterian<input type="Radio" name="rd1">
+vegeterian<input type="radio" name="rd1"></td>
+</tr>
+</table>
+</form>
+<a href="continue.html">
+</body>
+</html>
